@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Pokémon</title>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Escribe el nombre del Pokémon" />
+      <button id="search-button">Buscar</button>
+    </div>
+    <div class="pokemon-display">
+      <!-- La imagen del Pokémon estará dentro de la Pokébola -->
+      <div class="pokeball">
+        <div class="image-container">
+          <img id="pokemon-image" src="" alt="Pokémon" />
+        </div>
+      </div>
+      <!-- Cuadro con la información del Pokémon a la derecha -->
+      <div id="pokemon-info" class="info-container">
+        <!-- La información se llenará mediante JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="pokemon.js"></script>
+</body>
+</html>
